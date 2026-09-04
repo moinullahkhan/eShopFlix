@@ -1,6 +1,6 @@
 @AuthService.API_HostAddress = https://localhost:7088/api
 
-GET {{AuthService.API_HostAddress}}/auth/Login
+POST {{AuthService.API_HostAddress}}/auth/Login
 Accept: application/json
 Content-Type: application/json
 {

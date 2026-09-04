@@ -4,10 +4,16 @@
   </Folder>
   <Folder Name="/BackendServices/" />
   <Folder Name="/BackendServices/AuthService/">
-    <Project Path="BackendServices/AuthService.API/AuthService.API.csproj" />
+    <Project Path="BackendServices/AuthService/AuthService.API/AuthService.API.csproj" />
     <Project Path="BackendServices/AuthService/AuthService.Application/AuthService.Application.csproj" />
     <Project Path="BackendServices/AuthService/AuthService.Domain/AuthService.Domain.csproj" />
     <Project Path="BackendServices/AuthService/AuthService.Infrastructure/AuthService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/BackendServices/CatalogService/">
+    <Project Path="BackendServices/CatalogService/CatalogService.API/CatalogService.API.csproj" Id="e9f865e2-129a-45eb-bb8e-6b6f4aaa699f" />
+    <Project Path="BackendServices/CatalogService/CatalogService.Application/CatalogService.Application.csproj" Id="281e2c05-7258-4d26-bb01-a2e3f03f6cf0" />
+    <Project Path="BackendServices/CatalogService/CatalogService.Domain/CatalogService.Domain.csproj" Id="9db37a90-31f2-4a9d-8865-5a9ec299c293" />
+    <Project Path="BackendServices/CatalogService/CatalogService.Infrastructure/CatalogService.Infrastructure.csproj" Id="963a245b-e843-4399-b0e2-d4fa166086e3" />
   </Folder>
   <Folder Name="/FronendServices/" />
 </Solution>

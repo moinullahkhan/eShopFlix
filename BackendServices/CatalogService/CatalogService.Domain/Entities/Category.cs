@@ -3,13 +3,13 @@
 using System;
 using System.Collections.Generic;
 
-namespace AuthService.Domain.Entities;
+namespace CatalogService.Domain.Entities;
 
-public partial class Role
+public partial class Category
 {
-    public int Id { get; set; }
+    public int CategoryId { get; set; }
 
     public string Name { get; set; }
 
-    public ICollection<User> Users { get; set; } = new List<User>();
+    public virtual ICollection<Product> Products { get; set; } = new List<Product>();
 }
