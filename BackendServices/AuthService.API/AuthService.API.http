@@ -1,6 +1,10 @@
-@AuthService.API_HostAddress = http://localhost:5054
+@AuthService.API_HostAddress = https://localhost:7088/api
 
-GET {{AuthService.API_HostAddress}}/weatherforecast/
+GET {{AuthService.API_HostAddress}}/auth/Login
 Accept: application/json
-
+Content-Type: application/json
+{
+  "email": "user@gmail.com",
+  "password": "User@12345678"
+}
 ###
